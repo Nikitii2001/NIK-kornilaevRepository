@@ -1,0 +1,26 @@
+#include <iostream>
+#include <stdio.h>
+#include <cmath>
+
+using namespace std;
+
+class drob {
+private:
+int ch, zn;
+public:
+drob(){
+ch=0;
+zn=0;
+}
+drob(int a, int b){
+ch=a;
+zn=b;
+}
+drob(int a, int b, int c){
+ch=a*c+b;
+zn=c;
+}
+};
+int main(){
+
+}
