@@ -3,7 +3,7 @@
 #include <cmath>
 
 using namespace std;
-int gcd(int a, int b){
+int gcd(int a, int b){  //Наибольший общий знаменатель
 int a1=abs(a);
 int b1=abs(b);
 while(b1!=0){
@@ -12,7 +12,7 @@ swap(a1,b1);
 }
 return a1;
 }
-int lcm(int a, int b){
+int lcm(int a, int b){ //Наименьшее общее кратное
 return a*b/gcd(a,b);
 }
 class drob {
