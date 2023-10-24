@@ -58,7 +58,7 @@ this->zn=a;
 }
 };
 int main(){
-    drob a(2, 6), b(11, 12);
+    drob a(-2, 6), b(11, -12);
     a.write();
     cout << endl;
     b.write();
